@@ -633,9 +633,9 @@ textarea {
 }
 
 .main-navigation {
+  float: right;
   display: block;
   width: 100%;
-  float: right;
 }
 .main-navigation ul {
   display: none;
@@ -645,10 +645,10 @@ textarea {
 }
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
+  float: right;
   position: absolute;
   top: 100%;
-  left: -999em;
+  right: -999em;
   z-index: 99999;
 }
 .main-navigation ul ul ul {
