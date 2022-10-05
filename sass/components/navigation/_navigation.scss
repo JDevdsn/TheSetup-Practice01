@@ -1,6 +1,20 @@
+.site-header{
+	height: 100%;
+	width: 100vw;
+	background-color:rgb(239, 179, 234);
+	position: absolute;
+}
+
+.site-branding{
+	height: auto;
+	width: auto;
+	position:absolute;
+}
+
 .main-navigation {
 	display: block;
 	width: 100%;
+	float:right;
 
 	ul {
 		display: none;
